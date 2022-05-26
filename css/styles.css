@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: navy;
+    margin: auto;
+    color: white;
+}
+
+.contact .newsletter {
+    display: flex;
+    padding: 0;
+}
+
+.contact {
+    flex-direction: column;
+}
+
+.contact input, select, textarea {
+    border: none;
+}
+
+form {
+    max-width: 720px;
+    margin: auto 0;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .contact {
+        flex-wrap: wrap;
+    }
+}
