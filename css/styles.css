@@ -31,7 +31,7 @@ h1 {
 }
 
 form {
-    max-width: 720px;
+    max-width: 700px;
     margin: auto 0;
 }
 
@@ -63,4 +63,12 @@ fieldset {
 .breakOne {
     border-top: 1px solid blue;
     border-bottom: 2px solid blue;
+}
+h2 {
+    padding-top: 5px;
+}
+
+input {
+    height:30px;
+    width: 100%;
 }
