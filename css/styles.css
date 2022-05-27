@@ -26,10 +26,6 @@ h1 {
     padding: 0;
 }
 
-.contact {
-    flex-direction: column;
-}
-
 .contact input, select, textarea {
     border: none;
 }
@@ -39,10 +35,22 @@ form {
     margin: auto 0;
 }
 
+label {
+    display: block;
+    justify-content: center;
+}
 
-@media screen and (min-width:768px) {
+.contactInfo input, select, textarea, button {
+    border: none;
+    border-radius: 3px;
+}
 
-    .contact {
-        flex-wrap: wrap;
-    }
+input:focus, select:focus, textarea:focus, button:focus {
+    border: 1px solid #3d5f7f;
+}
+
+::placeholder {
+    color: grey;
+    font-style: italic;
+    text-align: right;
 }
