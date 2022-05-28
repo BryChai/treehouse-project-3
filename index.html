@@ -10,9 +10,9 @@
         <link href="css/styles.css" rel="stylesheet">
     </head>
     <body>
+        <main>
         <header>
             <h1>The Code Review</h1>
-            <main>
             <h2>Signup for our newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
         </header>
@@ -29,7 +29,7 @@
                         <input type="email" id="email" name="user-email" placeholder="Required" required>
                     </div>
                     <div class="contact">
-                        <label for="phone-number">Phone Number</label>
+                        <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="user-phone">
                     </div>
                     <div class="contact">
@@ -107,36 +107,27 @@
                 <legend>Newsletter</legend>
                 <label>Select the newsletters you would like to recieve</label>
                     <div class="newsletter">
-                        <label for="html-news">
                         <input type="checkbox" id="html-news" value="htmlNewsletter" name="newsletter">
-                        HTML News
-                        </label> 
+                        <label for="html-news">HTML News</label>
+ 
                     </div>
                     <div class="newsletter">
-                        <label for="css-news">
                         <input type="checkbox" id="css-news" value="cssNewsletter" name="newsletter">
-                        CSS News
-                        </label>
+                        <label for="css-news">CSS News</label>
                     </div>
                     <div class="newsletter">
-                        <label for="javascript-news">
                         <input type="checkbox" id="javascript-news" value="jsNewsletter" name="newsletter">
-                        Javascript News
-                    </label>
+                        <label for="javascript-news">Javascript News</label>
                     </div>
                 
                 <label>Newsletter format</label>
                     <div class="newsletter">
-                        <label for="html-format">
                         <input type="radio" id="html-format" value="hformat" name="user-format">
-                        HTML
-                        </label>
+                        <label for="html-format">HTML</label>
                     </div>
                     <div class="newsletter">
-                        <label for="css-format">
                         <input type="radio" id="plain-format" value="pformat" name="user-format">
-                        Plain text
-                        </label>
+                        <label for="plain-format">Plain text</label>
                     </div>
 
                 <div class="newsletter">

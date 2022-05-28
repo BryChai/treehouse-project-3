@@ -55,7 +55,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     text-align: right;
 }
 
-fieldset {
+.contactInfofieldset {
     border: none;
     padding: 5px;
 }
@@ -68,7 +68,7 @@ h2 {
     padding-top: 5px;
 }
 
-input {
+.contactInfo > input {
     height:30px;
     width: 100%;
 }
