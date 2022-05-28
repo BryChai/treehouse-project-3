@@ -19,6 +19,7 @@ h1 {
     background-color: navy;
     margin: auto;
     color: white;
+    padding: 15px;
 }
 
 .contact {
@@ -29,6 +30,7 @@ h1 {
 .newsletter {
     display: flex;
     flex-direction: row;
+    align-content: center;
 }
 
 .contact input, select, textarea {
@@ -55,7 +57,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     text-align: right;
 }
 
-.contactInfofieldset {
+.contactInfo, .newsletterInformation {
     border: none;
     padding: 5px;
 }
@@ -71,6 +73,11 @@ h2 {
 .contactInfo > input {
     height:30px;
     width: 100%;
+
+}
+
+.contact > label {
+    padding: 10px;
 }
 
 button {
@@ -79,4 +86,14 @@ button {
     border: none;
     text-align: center;
     font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+legend {
+    padding-top: 10px;
+}
+
+.newsletter > label {
+    padding: 10px 0 10px 10px;
 }
